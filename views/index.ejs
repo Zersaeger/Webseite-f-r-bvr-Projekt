@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>
+        Hier kommt dann ein etwas längerer Text rein
+    </p>
+    <a>Melde dich gerne an:</a>
+    <form action="/" method="post">
+        <label for="surename">Ihr Name</label><br>
+        <input type="text" id="surename" name="surename" value=""><br>
+        <label for="vorname">Ihr Vorname</label><br>
+        <input type="text" id="vorname" name="vorname" value=""><br>
+        <label for="mail">Ihre E-Mail-Adresse</label><br>
+        <input type="text" id="mail" name="mail"><br>
+        <button type="submit">Submit</button>
+    </form>
+    <a>
+        <%= error %>
+    </a>
+    <br>
+    <br>
+    <a href="/impressum">Impressum</a>
+</body>
+
+</html>
